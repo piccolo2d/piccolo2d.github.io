@@ -3,14 +3,18 @@
 
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
 <head>
-  <meta name='generator' content=
-  'HTML Tidy for Linux/x86 (vers 7 December 2008), see www.w3.org' />
-  <meta content='text/html; charset=us-ascii' http-equiv='Content-Type' />
-  <meta name='description' content='Home Page for the Piccolo2D project.' />
-  <meta name='format' content='text/html' />
-  <meta name='keywords' content=
-  'piccolo2d, piccolo2d.net, piccolo, piccolo.net, zoomable, zui, user interfaces, human-computer interaction, HCI, visualization, education' />
-  <meta name='relation' content='(contained in)=http://www.piccolo2d.org' />
+  <meta content=
+  'HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.12), see www.w3.org' name=
+  'generator' />
+  <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+  <meta content='Home Page for the Piccolo2D project.' name='description' />
+  <meta content='text/html' name='format' />
+  <meta content=
+  'piccolo2d, piccolo2d.net, piccolo, piccolo.net, zoomable, zui, user interfaces, human-computer interaction, HCI, visualization, education'
+  name='keywords' />
+  <meta content='(contained in)=http://www.piccolo2d.org' name='relation' />
+  <link href='../images/Piccolo2D-Logo.png' rel='image_src' />
+  <meta content='../images/Piccolo2D-Logo.png' name='og:image' property='og:image' />
 
   <title>Piccolo2D.Java - Defining User Interaction</title>
   <link href='../piccolo2d.css' rel='stylesheet' type='text/css' />
@@ -20,13 +24,13 @@
   <div id='navigation'>
     <!-- 
 this navigation node is auto-generated and injected
-by the script tools/inject_navigation.rb
+by the script ./tools/inject_navigation.rb
 
 DO NOT EDIT IT MANUALLY!!!      
 -->
 
-    <p class='header'><a href='../index.html'><img src='../images/Piccolo2D-Logo-small.png' alt=
-    'Piccolo2D Logo' /></a></p>
+    <p class='header'><a href='../index.html'><img alt='Piccolo2D Logo' src=
+    '../images/Piccolo2D-Logo-small.png' /></a></p>
 
     <ul>
       <li>
@@ -55,8 +59,8 @@ DO NOT EDIT IT MANUALLY!!!
 
                   <li><a href='../learn/interface.html'>The&nbsp;Interface</a></li>
 
-                  <li><a href='../learn/interaction.html' class=
-                  'selected'>User&nbsp;Interaction</a></li>
+                  <li><a class='selected' href=
+                  '../learn/interaction.html'>User&nbsp;Interaction</a></li>
 
                   <li><a href='../learn/effects.html'>Special&nbsp;Effects</a></li>
 
@@ -99,12 +103,11 @@ DO NOT EDIT IT MANUALLY!!!
     'http://code.google.com/p/piccolo2d/issues/entry?template=User%20defect%20report'>Found a
     Typo?</a></p>
 
-    <p class='validators'><a href='http://validator.w3.org/check/referer'><img src=
-    'http://www.w3.org/Icons/valid-xhtml10-blue' alt='Valid XHTML 1.0!' style=
+    <p class='validators'><a href='http://validator.w3.org/check/referer'><img alt=
+    'Valid XHTML 1.0!' src='http://www.w3.org/Icons/valid-xhtml10-blue' style=
     'border:0;width:88px;height:31px' /></a> <a href=
-    'http://jigsaw.w3.org/css-validator/check/referer'><img src=
-    'http://www.w3.org/Icons/valid-css-blue' alt='Valid CSS1!' style=
-    'border:0;width:88px;height:31px' /></a></p>
+    'http://jigsaw.w3.org/css-validator/check/referer'><img alt='Valid CSS1!' src=
+    'http://www.w3.org/Icons/valid-css-blue' style='border:0;width:88px;height:31px' /></a></p>
   </div>
 
   <div id='main'>
@@ -117,14 +120,14 @@ DO NOT EDIT IT MANUALLY!!!
 
     <p class='toggle' id='language' style=
     'float: right; width: 8.5em; height: 8ex; border:thin solid blue;'>Show examples in<br />
-    <img src='images/check.png' id='java0' alt='Checkmark' style=
-    'border:0;width:1.0em;height:2ex' /> <a href='javascript:void(0);' name='jlink0' class=
-    'toggle selected' id='jlink0' onmousedown=
+    <img alt='Checkmark' id='java0' src='images/check.png' style=
+    'border:0;width:1.0em;height:2ex' /> <a class='toggle selected' href='javascript:void(0);' id=
+    'jlink0' name='jlink0' onmousedown=
     'swapSections(&#39;csharp&#39;, &#39;java&#39;, &#39;clink&#39;, &#39;jlink&#39;);'>Java</a><br />
 
-    <img src='images/check.png' id='csharp0' alt='Checkmark' style=
-    'visibility: hidden;border:0;width:1.0em;height:2ex' /> <a href='javascript:void(0);' name=
-    'clink0' id='clink0' onmousedown=
+    <img alt='Checkmark' id='csharp0' src='images/check.png' style=
+    'visibility: hidden;border:0;width:1.0em;height:2ex' /> <a href='javascript:void(0);' id=
+    'clink0' name='clink0' onmousedown=
     'swapSections(&#39;java&#39;, &#39;csharp&#39;, &#39;jlink&#39;, &#39;clink&#39;);'>C#</a></p>
 
     <h1>Defining User Interaction</h1>
@@ -133,7 +136,7 @@ DO NOT EDIT IT MANUALLY!!!
     will define the user experience.&nbsp; It will cover how to add mouse and keyboard event
     handlers to the main camera and other nodes, as well as how to filter and consume events.</p>
 
-    <p class='image'><img src='images/interaction.jpg' alt='user interaction' /><br />
+    <p class='image'><img alt='user interaction' src='images/interaction.jpg' /><br />
     Download the complete code sample in <a href=
     'http://piccolo2d.googlecode.com/files/codesample.java-1.2-userinteraction.zip'>Java</a> or
     <a href=
@@ -149,10 +152,10 @@ DO NOT EDIT IT MANUALLY!!!
         <p>First you will need to reference the appropriate packages/namespaces.&nbsp; Add the
         following lines to the top of your code file:</p>
 
-        <p class='toggle'><a href='javascript:void(0);' name='jlink1' class='toggle selected' id=
+        <p class='toggle'><a class='toggle selected' href='javascript:void(0);' id='jlink1' name=
         'jlink1' onmousedown=
         'swapSections(&#39;csharp&#39;, &#39;java&#39;, &#39;clink&#39;, &#39;jlink&#39;);'>Java</a>
-        | <a href='javascript:void(0);' name='clink1' id='clink1' onmousedown=
+        | <a href='javascript:void(0);' id='clink1' name='clink1' onmousedown=
         'swapSections(&#39;java&#39;, &#39;csharp&#39;, &#39;jlink&#39;, &#39;clink&#39;);'>C#</a></p>
 
         <div class='snippet' id='snippet1'>
@@ -172,11 +175,11 @@ using UMD.HCIL.PiccoloX;
 </pre>
         </div>
 
-        <p>The first line adds the base Piccolo2D types, such as <code>PNode</code>. The second line
-        includes the basic event types. The third line includes the default node types that Piccolo2D
-        provides, all of which extend <code>PNode</code>.&nbsp; The fourth line includes several utility
-        classes, and the last line includes various "extras," such as <code>PForm</code> in .NET and
-        <code>PFrame</code> in Java, which will be used below.</p>
+        <p>The first line adds the base Piccolo2D types, such as <code>PNode</code>. The second
+        line includes the basic event types. The third line includes the default node types that
+        Piccolo2D provides, all of which extend <code>PNode</code>.&nbsp; The fourth line includes
+        several utility classes, and the last line includes various "extras," such as
+        <code>PForm</code> in .NET and <code>PFrame</code> in Java, which will be used below.</p>
       </li>
 
       <li>
@@ -186,10 +189,10 @@ using UMD.HCIL.PiccoloX;
         Instead, you should override the <code>initialize</code> method and add all of your
         Piccolo2D code there.&nbsp; See the <a href='dev-faq.html'>FAQ</a> for more details.</p>
 
-        <p class='toggle'><a href='javascript:void(0);' name='jlink2' class='toggle selected' id=
+        <p class='toggle'><a class='toggle selected' href='javascript:void(0);' id='jlink2' name=
         'jlink2' onmousedown=
         'swapSections(&#39;csharp&#39;, &#39;java&#39;, &#39;clink&#39;, &#39;jlink&#39;);'>Java</a>
-        | <a href='javascript:void(0);' name='clink2' id='clink2' onmousedown=
+        | <a href='javascript:void(0);' id='clink2' name='clink2' onmousedown=
         'swapSections(&#39;java&#39;, &#39;csharp&#39;, &#39;jlink&#39;, &#39;clink&#39;);'>C#</a></p>
 
         <div class='snippet' id='snippet2'>
@@ -238,10 +241,10 @@ public class InteractionForm : PForm {
         class in Piccolo2D that is used to register for mouse and keyboard events on a PNode.&nbsp;
         Add the following internal class beneath the <code>initialize</code> method.</p>
 
-        <p class='toggle'><a href='javascript:void(0);' name='jlink3' class='toggle selected' id=
+        <p class='toggle'><a class='toggle selected' href='javascript:void(0);' id='jlink3' name=
         'jlink3' onmousedown=
         'swapSections(&#39;csharp&#39;, &#39;java&#39;, &#39;clink&#39;, &#39;jlink&#39;);'>Java</a>
-        | <a href='javascript:void(0);' name='clink3' id='clink3' onmousedown=
+        | <a href='javascript:void(0);' id='clink3' name='clink3' onmousedown=
         'swapSections(&#39;java&#39;, &#39;csharp&#39;, &#39;jlink&#39;, &#39;clink&#39;);'>C#</a></p>
 
         <div class='snippet' id='snippet3'>
@@ -398,10 +401,10 @@ class SquiggleHandler : PBasicInputEventHandler {
         camera node.&nbsp; Add the following lines of code to the <code>initialize</code>
         method.</p>
 
-        <p class='toggle'><a href='javascript:void(0);' name='jlink4' class='toggle selected' id=
+        <p class='toggle'><a class='toggle selected' href='javascript:void(0);' id='jlink4' name=
         'jlink4' onmousedown=
         'swapSections(&#39;csharp&#39;, &#39;java&#39;, &#39;clink&#39;, &#39;jlink&#39;);'>Java</a>
-        | <a href='javascript:void(0);' name='clink4' id='clink4' onmousedown=
+        | <a href='javascript:void(0);' id='clink4' name='clink4' onmousedown=
         'swapSections(&#39;java&#39;, &#39;csharp&#39;, &#39;jlink&#39;, &#39;clink&#39;);'>C#</a></p>
 
         <div class='snippet' id='snippet4'>
@@ -457,10 +460,10 @@ Canvas.AddInputEventListener(squiggleHandler);
         <p>First, we will create green rectangle node and add it to the main layer.&nbsp; Add the
         following lines of code to the <code>initialize</code> method.</p>
 
-        <p class='toggle'><a href='javascript:void(0);' name='jlink5' class='toggle selected' id=
+        <p class='toggle'><a class='toggle selected' href='javascript:void(0);' id='jlink5' name=
         'jlink5' onmousedown=
         'swapSections(&#39;csharp&#39;, &#39;java&#39;, &#39;clink&#39;, &#39;jlink&#39;);'>Java</a>
-        | <a href='javascript:void(0);' name='clink5' id='clink5' onmousedown=
+        | <a href='javascript:void(0);' id='clink5' name='clink5' onmousedown=
         'swapSections(&#39;java&#39;, &#39;csharp&#39;, &#39;jlink&#39;, &#39;clink&#39;);'>C#</a></p>
 
         <div class='snippet' id='snippet5'>
@@ -490,10 +493,10 @@ Canvas.Layer.AddChild(nodeGreen);
         <code>initialize</code> method.&nbsp; The .NET snippet should be added beneath
         <code>initialize</code>.</p>
 
-        <p class='toggle'><a href='javascript:void(0);' name='jlink6' class='toggle selected' id=
+        <p class='toggle'><a class='toggle selected' href='javascript:void(0);' id='jlink6' name=
         'jlink6' onmousedown=
         'swapSections(&#39;csharp&#39;, &#39;java&#39;, &#39;clink&#39;, &#39;jlink&#39;);'>Java</a>
-        | <a href='javascript:void(0);' name='clink6' id='clink6' onmousedown=
+        | <a href='javascript:void(0);' id='clink6' name='clink6' onmousedown=
         'swapSections(&#39;java&#39;, &#39;csharp&#39;, &#39;jlink&#39;, &#39;clink&#39;);'>C#</a></p>
 
         <div class='snippet' id='snippet6'>
@@ -616,10 +619,10 @@ protected void nodeGreen_KeyDown(object sender, PInputEventArgs e) {
         <p>Finally, we will register the node event handler with our node.&nbsp; Add the following
         lines of code to the <code>initialize</code> method.</p>
 
-        <p class='toggle'><a href='javascript:void(0);' name='jlink7' class='toggle selected' id=
+        <p class='toggle'><a class='toggle selected' href='javascript:void(0);' id='jlink7' name=
         'jlink7' onmousedown=
         'swapSections(&#39;csharp&#39;, &#39;java&#39;, &#39;clink&#39;, &#39;jlink&#39;);'>Java</a>
-        | <a href='javascript:void(0);' name='clink7' id='clink7' onmousedown=
+        | <a href='javascript:void(0);' id='clink7' name='clink7' onmousedown=
         'swapSections(&#39;java&#39;, &#39;csharp&#39;, &#39;jlink&#39;, &#39;clink&#39;);'>C#</a></p>
 
         <div class='snippet' id='snippet7'>
