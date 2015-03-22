@@ -3,7 +3,7 @@
 # Call with parameter --help to get help.
 #
 # http://www.ruby-doc.org/docs/ProgrammingRuby/
-require File.dirname(__FILE__) + '/xhtml.rb'
+require File.join(File.dirname(__FILE__), 'xhtml.rb')
 
 # Helper to inject navigation into html pages, 
 # TODO link-check and 
