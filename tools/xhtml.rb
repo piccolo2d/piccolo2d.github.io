@@ -68,8 +68,8 @@ class Navigation
   # [dst] destination. Must support <<
   # [level] indentation level
   def self.print_tree_xml parent, dst=$stdout, level=0
-    self.walk_tree_xml(parent, dst, "  ", level) do |dst,child|
-      dst << child.attribute('title').value
+    self.walk_tree_xml(parent, dst, "  ", level) do |dst1,child|
+      dst1 << child.attribute('title').value
     end
   end
 

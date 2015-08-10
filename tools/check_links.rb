@@ -118,7 +118,7 @@ public
   end
 
   def check_a_href log=$stdout
-    ignore = ['http://validator.w3.org/check/referer', 'http://jigsaw.w3.org/css-validator/check/referer', 'http://code.google.com/p/piccolo2d/issues/entry?template=User%20defect%20report']   
+    ignore = ['http://validator.w3.org/check/referer', 'http://jigsaw.w3.org/css-validator/check/referer', 'https://github.com/piccolo2d/issues/entry?template=User%20defect%20report']
     log.puts '-----------------------------------------------------------'
     log.puts 'check_a_href'
     each_file do |file|
