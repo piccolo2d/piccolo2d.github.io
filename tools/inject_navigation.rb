@@ -3,7 +3,7 @@
 # Call with parameter --help to get help.
 #
 # http://www.ruby-doc.org/docs/ProgrammingRuby/
-require File.join(File.dirname(__FILE__), 'xhtml.rb')
+require File.join(File.dirname(File.expand_path(__FILE__)), 'xhtml.rb')
 
 # Helper to inject navigation into html pages, 
 # TODO link-check and 
@@ -94,7 +94,7 @@ END_OF_NAVIGATION_HEAD
 </p>
 -->
 <p class='bugreport'>
-<a href='http://code.google.com/p/piccolo2d/issues/entry?template=User%20defect%20report'>Found a Typo?</a>
+<a href='https://github.com/piccolo2d/piccolo2d.github.io/issues/new?title=Website%20Bug'>Found a Typo?</a>
 </p>
 
 <p class="validators">

@@ -1,7 +1,7 @@
 
 Jumpstart how to edit the website:
 
-1) checkout the site stage from https://piccolo2d.googlecode.com/svn/site 
+1) fork + clone the site https://github.com/piccolo2d/piccolo2d.github.io/
    (beware, lots of stuff!)
 
 2) edit whatever you want to fix,
@@ -11,17 +11,9 @@ Jumpstart how to edit the website:
 
 4) tidy the html as the above script asks you to,
 
-5) ensure proper mime-type settings (svn):
-   $ sh ./tools/svn-mime-types.sh
-   
-6) verify - test your changes locally
+5) verify - test your changes locally
 
-7) commit to svn and verify your changes at http://piccolo2d.googlecode.com/svn/site/
+6) commit, push and make a pull request
 
-8) wait until your changes are published from svn to http://piccolo2d.org 
-   automatically every 4 hours at 3,7,etc UTC.
-
-
-For more background visit:
-- http://code.google.com/p/piccolo2d/wiki/WebSiteHowTo
-- http://code.google.com/p/piccolo2d/issues/detail?id=42
+7) see you changes at http://piccolo2d.github.io/ and
+   http://piccolo2d.mro.name/ simultanously.
