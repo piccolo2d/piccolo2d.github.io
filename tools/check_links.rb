@@ -3,7 +3,7 @@
 # Call with parameter --help to get help.
 #
 # http://www.ruby-doc.org/docs/ProgrammingRuby/
-require File.dirname(__FILE__) + '/xhtml.rb'
+require File.join(File.dirname(File.expand_path(__FILE__)), 'xhtml.rb')
 
 # Search broken links
 class LinkChecker < Navigation
@@ -141,7 +141,7 @@ public
           check_resource href, false
 #         log.puts "Link OK     : #{file} -> #{href}"
         rescue Exception => e
-          log.puts "#{e.message} <- #{file}"
+          log.puts "#{e.message} #{href} <- #{file}"
         end
       end
     end
