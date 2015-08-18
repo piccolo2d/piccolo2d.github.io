@@ -16,4 +16,4 @@ Jumpstart how to edit the website:
 6) commit, push and make a pull request
 
 7) see you changes at http://piccolo2d.github.io/ and
-   http://piccolo2d.mro.name/ simultanously.
+   http://piccolo2d.info/ simultanously.
