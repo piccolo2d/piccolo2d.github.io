@@ -94,7 +94,8 @@ END_OF_NAVIGATION_HEAD
 </p>
 -->
 <p class='bugreport'>
-<a href='https://github.com/piccolo2d/piccolo2d.github.io/issues/new?title=Website%20Bug'>Found a Typo?</a>
+<a href='https://github.com/piccolo2d/piccolo2d.github.io/issues/new?title=Website%20Bug'>Found a Typo?</a><br/>
+<a href="https://flattr.com/submit/auto?user_id=mro&amp;url=http%3A%2F%2Fpiccolo2d.info&amp;title=piccolo2d%20hosting&amp;tags=github,piccolo2d&amp;category=software" target="_blank"><img src="//button.flattr.com/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"/></a>
 </p>
 
 <p class="validators">
