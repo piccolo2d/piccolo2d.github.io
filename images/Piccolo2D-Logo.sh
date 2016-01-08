@@ -21,7 +21,7 @@ dst=${prefix}-800x160.png
 $inkscape --export-width=800 --export-height=160 --export-png=$dst $OPTS --file="$src"
 
 dst=${prefix}-600x600.png
-$inkscape --export-width=600 --export-height=600 --export-area=7:-4:115:104 --export-png=$dst $OPTS --file="$src"
+$inkscape --export-width=600 --export-height=600 --export-area=3:-3:49:43 --export-png=$dst $OPTS --file="$src"
 
 optipng -o 7 "$dst_dir"/*.png &
 
