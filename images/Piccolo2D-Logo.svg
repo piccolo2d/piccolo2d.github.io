@@ -108,8 +108,8 @@
       <feOffset
          id="feOffset4536"
          result="offset"
-         dy="2"
-         dx="2" />
+         dy="4"
+         dx="4" />
       <feComposite
          id="feComposite4538"
          result="composite2"
@@ -535,7 +535,7 @@
        y="0"
        x="0" />
     <rect
-       style="display:inline;fill:none;fill-opacity:1;stroke:#ff0909;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#e00000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3470"
        width="41.491501"
        height="34.491501"
