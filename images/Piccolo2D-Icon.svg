@@ -6,10 +6,40 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   enable-background="new"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
->  <title
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Piccolo2D-Icon.svg"
+   width="125.99779"
+   height="97.197769"
+   style="enable-background:new">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1630"
+     inkscape:window-height="1006"
+     id="namedview61"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.36"
+     inkscape:cx="51.998899"
+     inkscape:cy="47.598885"
+     inkscape:window-x="50"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
      id="title3450">Piccolo2D Logo</title>
   <defs
      id="defs4">
@@ -52,7 +82,7 @@
     </linearGradient>
     <filter
        id="filter4528"
-       style="color-interpolation-filters:sRGB;">
+       style="color-interpolation-filters:sRGB">
       <feFlood
          id="feFlood4530"
          result="flood"
@@ -139,6 +169,44 @@
        gradientUnits="userSpaceOnUse"
        id="linearGradient6579"
        xlink:href="#linearGradient4316" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4842"
+       id="linearGradient4213"
+       gradientUnits="userSpaceOnUse"
+       x1="18.999985"
+       y1="40.999996"
+       x2="30.999985"
+       y2="53.999996" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4316"
+       id="linearGradient4215"
+       gradientUnits="userSpaceOnUse"
+       x1="18.999985"
+       y1="40.999996"
+       x2="30.999985"
+       y2="53.999996" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5889"
+       id="linearGradient4217"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(40.012631,-0.31722934)"
+       x1="21.659817"
+       y1="40.841419"
+       x2="27.987354"
+       y2="52.317226" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4316"
+       id="linearGradient4219"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(40.012631,-0.31722934)"
+       x1="21.659817"
+       y1="40.841419"
+       x2="27.987354"
+       y2="52.317226" />
   </defs>
   <metadata
      id="metadata7">
@@ -177,7 +245,8 @@
   </metadata>
   <g
      style="display:none"
-     id="layer3">
+     id="layer3"
+     transform="translate(1.9988995,-0.40111542)">
     <flowRoot
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4438"
@@ -203,7 +272,8 @@
        y="65.450806"
        x="131.28691"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:70px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande, Semi-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       sodipodi:linespacing="125%"><tspan
          y="65.450806"
          x="131.28691"
          id="tspan4456">Piccolo2D</tspan></text>
@@ -212,14 +282,16 @@
        y="88.675545"
        x="135.12572"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.375px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande, Semi-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5e5e5e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       sodipodi:linespacing="125%"><tspan
          y="88.675545"
          x="135.12572"
          id="tspan4460">Structured 2D Graphics Framework</tspan></text>
   </g>
   <g
      style="display:inline;opacity:1"
-     id="layer4">
+     id="layer4"
+     transform="translate(1.9988995,-0.40111542)">
     <rect
        rx="1"
        y="8.5009298"
@@ -231,15 +303,18 @@
     <path
        id="path4202"
        d="M 49.115285,63.323378 65.515794,46.239525"
-       style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 65.70028,45.960722 81.912156,29.159819"
-       id="path4204" />
+       id="path4204"
+       inkscape:connector-curvature="0" />
     <path
        id="path4206"
        d="M 65.84033,46.193015 99.228302,58.728606"
-       style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
     <rect
        rx="1"
        y="11.500115"
@@ -277,7 +352,7 @@
        cy="46.781246"
        cx="25.718735"
        id="path4824"
-       style="fill:url(#linearGradient6577);fill-opacity:1;stroke:url(#linearGradient6579);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient4213);fill-opacity:1;stroke:url(#linearGradient4215);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        height="100%"
        width="100%"
@@ -305,7 +380,8 @@
   </g>
   <g
      style="display:inline;opacity:1"
-     id="layer5">
+     id="layer5"
+     transform="translate(1.9988995,-0.40111542)">
     <use
        clip-path="url(#clipPath4315)"
        height="100%"
@@ -316,7 +392,7 @@
        y="0"
        x="0" />
     <circle
-       style="display:inline;opacity:1;fill:url(#linearGradient5899);fill-opacity:1;stroke:url(#linearGradient5897);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:url(#linearGradient4217);fill-opacity:1;stroke:url(#linearGradient4219);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle4322"
        cx="65.731361"
        cy="46.464016"
