@@ -25,7 +25,7 @@ $inkscape --export-width=600 --export-height=600 --export-area=7:-4:115:104 --ex
 
 optipng -o 7 "$dst_dir"/*.png
 
-# crate a clean, stripped down SVG
+# create a clean, stripped down SVG
 
 dst=${prefix}.svg
 cp "$src" "$dst"
@@ -34,6 +34,18 @@ $inkscape "$dst" \
   --select=layer3 --verb=EditDelete \
   --select=layer2 --verb=EditDelete \
   --select=layer1 --verb=EditDelete \
+  --verb=FileVacuum --verb=FileSave \
+  --verb=FileClose --verb=FileQuit
+$inkscape --without-gui --vacuum-defs --export-plain-svg="$dst" --file="$dst"
+
+dst=$dst_dir/Piccolo2D-Icon.svg
+cp "$src" "$dst"
+# http://stackoverflow.com/a/10492912
+$inkscape "$dst" \
+  --select=layer3 --verb=EditDelete \
+  --select=layer2 --verb=EditDelete \
+  --select=layer1 --verb=EditDelete \
+  --select=g4208 --verb=EditDelete \
   --verb=FileVacuum --verb=FileSave \
   --verb=FileClose --verb=FileQuit
 $inkscape --without-gui --vacuum-defs --export-plain-svg="$dst" --file="$dst"
