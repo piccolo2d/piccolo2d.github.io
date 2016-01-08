@@ -74,7 +74,7 @@ by the script #{__FILE__}
 DO NOT EDIT IT MANUALLY!!!  
 -->
 <p class="header">
-  <a href='#{prefix}index.html'><img width="203px" src='#{prefix}images/Piccolo2D-Logo.svg' alt='Piccolo2D Logo' /></a>
+  <a href='#{prefix}index.html'><img src='#{prefix}images/Piccolo2D-Logo-small.png' alt='Piccolo2D Logo' /></a>
 </p>
 END_OF_NAVIGATION_HEAD
     Navigation.walk_tree_xml(x, div, "  ") do |_dst,child|
