@@ -23,7 +23,7 @@ $inkscape --export-width=800 --export-height=160 --export-png=$dst $OPTS --file=
 dst=${prefix}-600x600.png
 $inkscape --export-width=600 --export-height=600 --export-area=7:-4:115:104 --export-png=$dst $OPTS --file="$src"
 
-optipng -o 7 "$dst_dir"/*.png
+optipng -o 7 "$dst_dir"/*.png &
 
 # create a clean, stripped down SVG
 
@@ -36,6 +36,7 @@ $inkscape "$dst" \
   --select=layer1 --verb=EditDelete \
   --verb=FileVacuum --verb=FileSave \
   --verb=FileClose --verb=FileQuit
+$inkscape --without-gui --vacuum-defs --export-dpi=300 --export-pdf="$dst.pdf" --file="$dst"
 $inkscape --without-gui --vacuum-defs --export-plain-svg="$dst" --file="$dst"
 
 dst=$dst_dir/Piccolo2D-Icon.svg
@@ -46,6 +47,10 @@ $inkscape "$dst" \
   --select=layer2 --verb=EditDelete \
   --select=layer1 --verb=EditDelete \
   --select=g4208 --verb=EditDelete \
+  --verb=FitCanvasToDrawing \
   --verb=FileVacuum --verb=FileSave \
   --verb=FileClose --verb=FileQuit
+$inkscape --without-gui --vacuum-defs --export-dpi=300 --export-pdf="$dst.pdf" --file="$dst"
 $inkscape --without-gui --vacuum-defs --export-plain-svg="$dst" --file="$dst"
+
+wait
