@@ -259,29 +259,29 @@
      id="g3441"
      style="display:inline;opacity:1">
     <rect
-       rx="0.34489724"
+       rx="0.41387668"
        y="72.499939"
        x="33.5"
        height="21"
-       width="10"
+       width="12"
        id="rect4684"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 26.443162,78.545548 6.332339,-6.670459"
+       d="m 26.379204,79.31304 7.099831,-7.949612"
        id="path4204" />
     <path
        id="path4202"
-       d="m 19.965096,85.439039 6.406009,-6.782795"
+       d="M 19.453435,85.630912 26.49902,79.167905"
        style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path4206"
-       d="m 26.497867,78.637774 13.041285,4.976998"
+       d="m 26.497867,79.277351 12.977327,4.209506"
        style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        rx="0.39992955"
        y="79.499947"
-       x="12.500001"
+       x="13.5"
        height="12"
        width="14.000001"
        id="rect4686"
@@ -295,11 +295,11 @@
        id="rect4688"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       rx="0.3913064"
+       rx="0.41304567"
        y="65.499947"
-       x="23.5"
+       x="23.500002"
        height="12"
-       width="18"
+       width="19"
        id="rect4682"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>

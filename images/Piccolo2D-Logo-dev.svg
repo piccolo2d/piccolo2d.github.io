@@ -17,7 +17,8 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="Piccolo2D-Logo-dev.svg"
-   style="enable-background:new">
+   style="enable-background:new"
+   enable-background="new">
   <title
      id="title3450">Piccolo2D Logo</title>
   <defs
@@ -212,11 +213,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.527928"
-     inkscape:cx="6.5282223"
-     inkscape:cy="23.298544"
+     inkscape:zoom="15.635341"
+     inkscape:cx="33.572713"
+     inkscape:cy="17.561181"
      inkscape:document-units="px"
-     inkscape:current-layer="g5783"
+     inkscape:current-layer="layer7"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -596,26 +597,26 @@
     <rect
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4684"
-       width="10"
+       width="12"
        height="21"
        x="33.5"
        y="72.499939"
-       rx="0.34489724" />
+       rx="0.41387668" />
     <path
        inkscape:connector-curvature="0"
        id="path4204"
-       d="m 26.443162,78.545548 6.332339,-6.670459"
+       d="m 26.379204,79.31304 7.099831,-7.949612"
        style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 19.965096,85.439039 6.406009,-6.782795"
+       d="M 19.453435,85.630912 26.49902,79.167905"
        id="path4202"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 26.497867,78.637774 13.041285,4.976998"
+       d="m 26.497867,79.277351 12.977327,4.209506"
        id="path4206"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -624,7 +625,7 @@
        id="rect4686"
        width="14.000001"
        height="12"
-       x="12.500001"
+       x="13.5"
        y="79.499947"
        rx="0.39992955" />
     <rect
@@ -638,11 +639,11 @@
     <rect
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4682"
-       width="18"
+       width="19"
        height="12"
-       x="23.5"
+       x="23.500002"
        y="65.499947"
-       rx="0.3913064" />
+       rx="0.41304567" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -679,7 +680,7 @@
      inkscape:groupmode="layer"
      id="g6068"
      inkscape:label="circles color"
-     style="display:inline"
+     style="display:inline;"
      sodipodi:insensitive="true">
     <use
        height="100%"
