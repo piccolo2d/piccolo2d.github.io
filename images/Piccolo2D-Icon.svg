@@ -16,6 +16,55 @@
      id="title3450">Piccolo2D Logo</title>
   <defs
      id="defs4">
+    <g
+       style="display:inline;enable-background:new"
+       id="g1">
+      <use
+         xlink:href="#c1"
+         id="use5785"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         transform="translate(-16,1.1920929e-7)"
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         id="use5787"
+         xlink:href="#c1" />
+      <use
+         transform="translate(-6.9999999,6.000002)"
+         xlink:href="#c1"
+         id="use5789"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         transform="translate(13,4.000002)"
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         id="use5791"
+         xlink:href="#c1" />
+      <use
+         transform="translate(7.0000001,-7.999998)"
+         xlink:href="#c1"
+         id="use5793"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <circle
+       r="3"
+       style="display:inline;opacity:1;fill:url(#linearGradient4994);fill-opacity:1;stroke:url(#linearGradient4996);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       id="c1"
+       cx="26.5"
+       cy="19.499998" />
     <linearGradient
        id="linearGradient5889">
       <stop
@@ -41,17 +90,6 @@
          id="stop4320"
          offset="1"
          style="stop-color:#625773;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient4842">
-      <stop
-         style="stop-color:#cfcfcf;stop-opacity:1;"
-         offset="0"
-         id="stop4284" />
-      <stop
-         style="stop-color:#666666;stop-opacity:1"
-         offset="1"
-         id="stop4286" />
     </linearGradient>
     <filter
        id="filter4528"
@@ -84,54 +122,44 @@
          in2="offset"
          in="SourceGraphic" />
     </filter>
-    <clipPath
-       id="clipPath4315"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         rx="1"
-         y="11.968265"
-         x="60.235611"
-         height="34.491501"
-         width="41.491501"
-         id="rect4317"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </clipPath>
-    <linearGradient
-       y2="53.999996"
-       x2="30.999985"
-       y1="40.999996"
-       x1="18.999985"
-       gradientTransform="matrix(0.3999999,0,0,0.40000004,0.21250658,60.78749)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient114"
-       xlink:href="#linearGradient4842" />
-    <linearGradient
-       y2="53.999996"
-       x2="30.999985"
-       y1="40.999996"
-       x1="18.999985"
-       gradientTransform="matrix(0.3999999,0,0,0.40000004,0.21250658,60.78749)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient116"
-       xlink:href="#linearGradient4316" />
+    <filter
+       id="sat0">
+      <feColorMatrix
+         id="feColorMatrix3474"
+         values="0.0"
+         type="saturate"
+         in="SourceGraphic" />
+    </filter>
     <linearGradient
        y2="52.317226"
        x2="27.987354"
        y1="40.841419"
        x1="21.659817"
-       gradientTransform="matrix(0.3999999,0,0,0.40000004,16.212491,59.787437)"
+       gradientTransform="matrix(0.3999999,0,0,0.40000004,16.212491,0.787497)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient118"
+       id="linearGradient4994"
        xlink:href="#linearGradient5889" />
     <linearGradient
        y2="52.317226"
        x2="27.987354"
        y1="40.841419"
        x1="21.659817"
-       gradientTransform="matrix(0.3999999,0,0,0.40000004,16.212491,59.787437)"
+       gradientTransform="matrix(0.3999999,0,0,0.40000004,16.212491,0.787497)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient120"
+       id="linearGradient4996"
        xlink:href="#linearGradient4316" />
+    <clipPath
+       id="clipPath6076"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#d947eb;stroke-width:0.49999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.78086416;enable-background:new"
+         id="rect6078"
+         width="17"
+         height="14"
+         x="18.5"
+         y="11.499998"
+         rx="0.40972239" />
+    </clipPath>
   </defs>
   <metadata
      id="metadata7">
@@ -170,6 +198,51 @@
   </metadata>
   <g
      transform="translate(0.20000029,-59.699939)"
+     style="display:none"
+     id="layer3">
+    <flowRoot
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4438"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4440"><rect
+           y="7.1010637"
+           x="130.51917"
+           height="61.420784"
+           width="362.38263"
+           id="rect4442" /></flowRegion><flowPara
+         id="flowPara4444" /></flowRoot>    <flowRoot
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4446"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4448"><rect
+           y="7.1010637"
+           x="129.7514"
+           height="66.795105"
+           width="363.91815"
+           id="rect4450" /></flowRegion><flowPara
+         id="flowPara4452" /></flowRoot>    <text
+       transform="scale(1.0082988,0.99176949)"
+       id="text4454"
+       y="86.999733"
+       x="53.00774"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:28.02272987px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande, Semi-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="86.999733"
+         x="53.00774"
+         id="tspan4456">Piccolo2D</tspan></text>
+    <text
+       transform="scale(1.0005905,0.99940989)"
+       id="text4458"
+       y="95.560677"
+       x="55.594883"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.69699478px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande, Semi-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5e5e5e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="95.560677"
+         x="55.594883"
+         id="tspan4460">Structured 2D Graphics Framework</tspan></text>
+  </g>
+  <g
+     transform="translate(0.20000029,-59.699939)"
      style="display:inline;opacity:0.8"
      id="layer4">
     <rect
@@ -201,32 +274,6 @@
        id="path4202"
        d="m 19.965096,85.439039 6.406009,-6.782795"
        style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <use
-       height="100%"
-       width="100%"
-       transform="translate(23,-7.999999)"
-       id="use3477"
-       xlink:href="#path4824"
-       y="0"
-       x="0"
-       style="display:inline;opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
-    <use
-       height="100%"
-       width="100%"
-       transform="translate(9.0000002,6.000001)"
-       id="use3475"
-       xlink:href="#path4824"
-       y="0"
-       x="0"
-       style="display:inline;opacity:1" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#aaaaaa;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3443"
-       width="41"
-       height="32"
-       x="4.5"
-       y="63.499939"
-       rx="0.3904832" />
     <path
        id="path4206"
        d="m 26.497867,78.637774 13.041285,4.976998"
@@ -247,21 +294,6 @@
        width="10"
        id="rect4688"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       r="3"
-       cy="79.499939"
-       cx="10.5"
-       id="path4824"
-       style="display:inline;opacity:1;fill:url(#linearGradient114);fill-opacity:1;stroke:url(#linearGradient116);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <use
-       height="100%"
-       width="100%"
-       transform="translate(29,4.000001)"
-       id="use3479"
-       xlink:href="#path4824"
-       y="0"
-       x="0"
-       style="display:inline;opacity:1" />
     <rect
        rx="0.3913064"
        y="65.499947"
@@ -272,31 +304,56 @@
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <g
+     transform="translate(0.20000029,0.30000099)"
+     style="display:none"
+     id="layer7">
+    <rect
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#aaaaaa;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       id="rect3443"
+       width="41"
+       height="32"
+       x="4.5"
+       y="63.499939"
+       rx="0.3904832"
+       transform="translate(0,-59.99994)" />
+  </g>
+  <g
+     transform="translate(0.20000029,0.30000099)"
+     id="g5783"
+     style="display:inline">
+    <use
+       style="filter:url(#sat0)"
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       id="use6058"
+       xlink:href="#g1" />
+  </g>
+  <g
+     transform="translate(0.20000029,0.30000099)"
+     style="display:inline"
+     id="g6068">
+    <use
+       clip-path="url(#clipPath6076)"
+       xlink:href="#g1"
+       id="use6070"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
      transform="translate(0.20000029,-59.699939)"
      style="display:inline;opacity:1"
      id="layer5">
-    <use
-       clip-path="url(#clipPath4315)"
-       height="100%"
-       width="100%"
-       transform="translate(-6.4117669,6.8876939)"
-       id="use4289"
-       xlink:href="#circle4322"
-       y="0"
-       x="0" />
-    <circle
-       r="3"
-       style="display:inline;opacity:1;fill:url(#linearGradient118);fill-opacity:1;stroke:url(#linearGradient120);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="circle4322"
-       cx="26.5"
-       cy="78.499939" />
     <rect
-       style="display:inline;fill:none;fill-opacity:1;stroke:#e00000;stroke-width:0.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#e00000;stroke-width:0.99999982;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3470"
-       width="18"
+       width="17"
        height="14"
-       x="17.5"
+       x="18.5"
        y="71.499939"
-       rx="0.4338237" />
+       rx="0.40972239" />
   </g>
 </svg>
