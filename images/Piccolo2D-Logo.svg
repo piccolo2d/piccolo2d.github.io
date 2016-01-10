@@ -232,51 +232,6 @@
   </metadata>
   <g
      transform="translate(0,-59.99994)"
-     style="display:none"
-     id="layer3">
-    <flowRoot
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot4438"
-       xml:space="preserve"><flowRegion
-         id="flowRegion4440"><rect
-           y="7.1010637"
-           x="130.51917"
-           height="61.420784"
-           width="362.38263"
-           id="rect4442" /></flowRegion><flowPara
-         id="flowPara4444" /></flowRoot>    <flowRoot
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot4446"
-       xml:space="preserve"><flowRegion
-         id="flowRegion4448"><rect
-           y="7.1010637"
-           x="129.7514"
-           height="66.795105"
-           width="363.91815"
-           id="rect4450" /></flowRegion><flowPara
-         id="flowPara4452" /></flowRoot>    <text
-       transform="scale(1.0082988,0.99176949)"
-       id="text4454"
-       y="86.999733"
-       x="53.00774"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:28.02272987px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande, Semi-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="86.999733"
-         x="53.00774"
-         id="tspan4456">Piccolo2D</tspan></text>
-    <text
-       transform="scale(1.0005905,0.99940989)"
-       id="text4458"
-       y="95.560677"
-       x="55.594883"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.69699478px;line-height:125%;font-family:'Lucida Grande';-inkscape-font-specification:'Lucida Grande, Semi-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5e5e5e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="95.560677"
-         x="55.594883"
-         id="tspan4460">Structured 2D Graphics Framework</tspan></text>
-  </g>
-  <g
-     transform="translate(0,-59.99994)"
      id="g4208"
      style="display:inline">
     <path
@@ -465,11 +420,11 @@
      id="g3441"
      style="display:inline;opacity:1">
     <rect
-       rx="0.41387668"
+       rx="0.37938696"
        y="72.499939"
        x="33.5"
        height="21"
-       width="12"
+       width="11"
        id="rect4684"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
